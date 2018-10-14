@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 });
 
-const devs = ["388357326614167563"];
+const devs = ["388357326614167563","314135031029170197"];
 const adminprefix = ["$"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
@@ -758,4 +758,4 @@ client.on('message', message => {
 
 
 
-client.login('NDk3MDg0NzA4MDczNTA0Nzc4.DqDZ0Q.JEy2Bde5RVR7kOVpPfwRJ5fo40E');
+client.login(process.env.BOT_TOKEN);
