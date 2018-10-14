@@ -1,0 +1,21 @@
+{
+  "name": "bots",
+  "version": "0.0.1",
+  "description": "tutorial",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "george",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "forever": "^0.15.3",
+    "google-translate-api": "^2.3.0",
+    "hypixel": "^1.0.3",
+    "hypixel-api": "^1.1.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "ytdl-core": "^0.26.1"
+  }
+}
